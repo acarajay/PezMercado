@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1081647437662",
+    "firebase_url": "https://pezmercado-b7c46.firebaseio.com",
+    "project_id": "pezmercado-b7c46",
+    "storage_bucket": "pezmercado-b7c46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081647437662:android:d009ade297bb4ec2",
+        "android_client_info": {
+          "package_name": "com.example.pezmercado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081647437662-l7lom6cdjjilnphfo3rdi7sfoqkepq0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF0lsxtEkIhlofjB9ujDzAqSaSHEEUGu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081647437662-l7lom6cdjjilnphfo3rdi7sfoqkepq0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewProductActivity">
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/uploadimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/scientific_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/select_product_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:hint="Scientific Name"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/common_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/scientific_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Local Name"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/local_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/common_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Common Name"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/product_form"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/local_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Product Form"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/date_caught"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/product_form"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Date Caught"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/place_caught"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/date_caught"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Place Caught"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/availability"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/place_caught"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Availability"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/price_kg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/availability"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Price/kg"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/minimum_order"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/price_kg"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="Minimum Order"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/in_stock"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/minimum_order"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:hint="In Stock"
+        android:textAlignment="center"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/input_design"
+        />
+
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/in_stock"
+        android:text="Add Product"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:padding="17dp"
+        android:layout_marginTop="6dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        />
+
+</RelativeLayout>
